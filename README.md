@@ -7,3 +7,4 @@ This is repository for swift language study during 100 days.
 * [Day 3](./Documents/day3.md) : Operators and Conditions
 * [Day 4](./Documents/day4.md) : Loops - For in, While, repeat loops...
 * [Day 5](./Documents/day5.md) : Functions, parameters, and errors
+* [Day 6](./Documents/day6.md) : Closures, part one
