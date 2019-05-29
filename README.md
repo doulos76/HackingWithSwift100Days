@@ -11,4 +11,4 @@ This is repository for swift language study during 100 days.
 * [Day 7](./Documents/day7.md) : Closures, part two
 * [Day 8](./Documents/day8.md) : Structs, part one - properties and methods
 * [Day 9](./Documents/day9.md) : Structs, part two - access control, static properties, and laziness
-
+* [Day 10](./Documents/day10.md) : Class and Inheritance
