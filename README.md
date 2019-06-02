@@ -15,3 +15,4 @@ This is repository for swift language study during 100 days.
 * [Day 11](./Documents/day11.md) : protocols, extensions, and protocol extensions
 * [Day 12](./Documents/day12.md) : Optional
 * [Day 13](./Documents/day13.md) : Variables and constants, Types of Data, Operators, String interpolation, Arrays, Dictionaries, Conditional statements, Loops, Switch case
+* [Day 14](./Documents/day14.md) : Functions, Optionals, Opetional Chaining, Enumerations, Structs and Classes
