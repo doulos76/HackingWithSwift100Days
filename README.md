@@ -17,4 +17,5 @@ This is repository for swift language study during 100 days.
 * [Day 13](./Documents/day13.md) : Variables and constants, Types of Data, Operators, String interpolation, Arrays, Dictionaries, Conditional statements, Loops, Switch case
 * [Day 14](./Documents/day14.md) : Functions, Optionals, Opetional Chaining, Enumerations, Structs and Classes
 * [Day 15](./Documents/day15.md) : Properties, access control, polymorphism and typecasting, closures
-* [Day 16](./Documents/day16.md) : setting up, Listing images with FileManger, Desiging our interface
+* [Day 16](./Documents/day16.md) : Project 1, part one - setting up, Listing images with FileManger, Desiging our interface
+* [Day 17](./Documents/day17.md) : PROJECT 1, PART TWO - Building a detail screen, Loading images with UIImage, Final tweaks: hidesBarsOnTap, safe area margins
