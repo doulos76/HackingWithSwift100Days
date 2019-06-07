@@ -29,3 +29,4 @@ This is repository for swift language study during 100 days.
 * [Day 17](./Documents/day17.md) : PROJECT 1, PART two - Building a detail screen, Loading images with UIImage, Final tweaks: hidesBarsOnTap, safe area margins
 * [Day 18](./Documents/day18.md) : PROJECT 1, PART three - Wrap up, Review for Project 1: Storm Viewer
 * [Day 19](./Documents/day19.md) : PROJECT 2, PART one - Setting up, Designing your layout, Making the basic game work: UIButton and CALayer
+* [Day 20](./Documents/day20.md) : PROJECT 2, PART two - random numbers, IBAction

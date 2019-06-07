@@ -1,11 +1,43 @@
-//
-//  ViewController.swift
-//  Project2
-//
-//  Created by dave76 on 07/06/2019.
-//  Copyright © 2019 dave76. All rights reserved.
-//
+# Day 20
 
+* __Project 2, Part two__
+	* Guess which flag: random numbers
+	* From outlets to actions: creating an `IBAction`
+
+## Guess which flag: random numbers
+
+* Array random Number Generator : [`shuffle()`](https://developer.apple.com/documentation/swift/collectionofone/2995156-shuffle)
+
+```Swift
+/// Shuffles the collection in place.
+///
+/// Use the `shuffle()` method to randomly reorder the elements of an array.
+///
+///     var names = ["Alejandro", "Camila", "Diego", "Luciana", "Luis", "Sofía"]
+///     names.shuffle(using: myGenerator)
+///     // names == ["Luis", "Camila", "Luciana", "Sofía", "Alejandro", "Diego"]
+///
+/// This method is equivalent to calling `shuffle(using:)`, passing in the
+/// system's default random generator.
+///
+/// - Complexity: O(*n*), where *n* is the length of the collection.
+@inlinable public mutating func shuffle()
+```
+
+* Int Random Number Methods : [`random(in:)`](https://developer.apple.com/documentation/swift/int/2995648-random)
+
+```Swift
+correctAnswer = Int.random(in: 0...2)
+```
+
+
+## From outlets to actions: creating an IBAction
+
+* [AlertController](https://developer.apple.com/documentation/uikit/uialertcontroller)
+
+* Full Source
+
+```Swift
 import UIKit
 
 class ViewController: UIViewController {
@@ -68,4 +100,4 @@ class ViewController: UIViewController {
   }
   
 }
-
+```
