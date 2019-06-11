@@ -38,3 +38,5 @@ This is repository for swift language study during 100 days.
 * [Day 23](./Documents/day23.md) : Milestone: Project 1-3
 
 ## Days 24-31: Web views, user input, and Auto Layout
+
+* [Day 24](./Documents/day24.md) : Project 4, part one - Setting up, Creating a simple browser with WKWepView, Choosing a website: UIAlertController action sheets
