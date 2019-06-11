@@ -41,8 +41,7 @@ class ViewController: UITableViewController {
     let path = Bundle.main.resourcePath!
     let items = try! fileManager.contentsOfDirectory(atPath: path)
     flages = items.filter { item in item.hasSuffix(".png")}
-  }
-  
+  }  
 }
 
 // MARK:- TableViewDataSource Methods
