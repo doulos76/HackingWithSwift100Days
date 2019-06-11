@@ -20,8 +20,7 @@ class ViewController: UITableViewController {
   
   // MARK:- Property
   
-  var delegate: DetailViewControllerDelegate?
-  
+//  var delegate: DetailViewControllerDelegate?
   var flages = [String]()
 
   // MARK:- View Life Cycle
@@ -29,6 +28,12 @@ class ViewController: UITableViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     loadData()
+    setupNavigationBar()
+  }
+  
+  fileprivate func setupNavigationBar() {
+    title = "Flages"
+    navigationController?.navigationBar.prefersLargeTitles = true
   }
 
   fileprivate func loadData() {
@@ -37,6 +42,7 @@ class ViewController: UITableViewController {
     let items = try! fileManager.contentsOfDirectory(atPath: path)
     flages = items.filter { item in item.hasSuffix(".png")}
   }
+  
 }
 
 // MARK:- TableViewDataSource Methods
@@ -64,6 +70,10 @@ extension ViewController {
   
   override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
     tableView.deselectRow(at: indexPath, animated: true)
+    if let viewController = storyboard?.instantiateViewController(withIdentifier: "DetailSegue") as? DetailViewController {
+      viewController.selectedImage = flages[indexPath.row]
+      navigationController?.pushViewController(viewController, animated: true)
+    }
   }
   
   override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
