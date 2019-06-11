@@ -32,3 +32,9 @@ This is repository for swift language study during 100 days.
 * [Day 20](./Documents/day20.md) : PROJECT 2, PART two - random numbers, IBAction
 * [Day 21](./Documents/day21.md) : PROJECT 2, PART three - Wrap up, Review for Project 2: Guess the Flag
 * [Day 22](./Documents/day22.md) : PROJECT 3, About technique projects, UIActivityViewController explained, Wrap up, Review for Project 3: Social media
+
+## Day 23: Consolidation II
+
+* [Day 23](./Documents/day23.md) : Milestone: Project 1-3
+
+## Days 24-31: Web views, user input, and Auto Layout
