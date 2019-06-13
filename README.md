@@ -40,3 +40,4 @@ This is repository for swift language study during 100 days.
 ## Days 24-31: Web views, user input, and Auto Layout
 
 * [Day 24](./Documents/day24.md) : Project 4, part one - Setting up, Creating a simple browser with WKWepView, Choosing a website: UIAlertController action sheets
+* [Day 25](./Documents/day25.md) : Project 4, part two - Monitoring page loads: UIToolbar and UIProgressView, Refactoring for the winn
